@@ -1,0 +1,19 @@
+{
+  "v": 1,
+  "components": {
+    "example-button": {
+      "id": "example-button",
+      "name": "Button",
+      "docgen": {
+        "$ref": "../services/core/docgen/example-button.json#/components/example-button"
+      },
+      "stories": {
+        "$ref": "../services/core/story-docs/example-button.json#/components/example-button"
+      }
+    }
+  },
+  "meta": {
+    "docgen": "vue-component-meta",
+    "durationMs": 0
+  }
+}

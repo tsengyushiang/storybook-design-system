@@ -1,0 +1,35 @@
+{
+  "components": {
+    "example-button": {
+      "id": "example-button",
+      "name": "Button",
+      "path": "./src/stories/Button.stories.ts",
+      "stories": {
+        "example-button--primary": {
+          "id": "example-button--primary",
+          "name": "Primary",
+          "snippet": "<script lang=\"ts\" setup>\nimport Button from './Button.vue';\n</script>\n\n<template>\n  <Button label=\"Button\" primary />\n</template>",
+          "warning": "Incomplete snippet: `onClick: fn()` could not be resolved statically."
+        },
+        "example-button--secondary": {
+          "id": "example-button--secondary",
+          "name": "Secondary",
+          "snippet": "<script lang=\"ts\" setup>\nimport Button from './Button.vue';\n</script>\n\n<template>\n  <Button label=\"Button\" :primary=\"false\" />\n</template>",
+          "warning": "Incomplete snippet: `onClick: fn()` could not be resolved statically."
+        },
+        "example-button--large": {
+          "id": "example-button--large",
+          "name": "Large",
+          "snippet": "<script lang=\"ts\" setup>\nimport Button from './Button.vue';\n</script>\n\n<template>\n  <Button label=\"Button\" :primary=\"false\" size=\"large\" />\n</template>",
+          "warning": "Incomplete snippet: `onClick: fn()` could not be resolved statically."
+        },
+        "example-button--small": {
+          "id": "example-button--small",
+          "name": "Small",
+          "snippet": "<script lang=\"ts\" setup>\nimport Button from './Button.vue';\n</script>\n\n<template>\n  <Button label=\"Button\" :primary=\"false\" size=\"small\" />\n</template>",
+          "warning": "Incomplete snippet: `onClick: fn()` could not be resolved statically."
+        }
+      }
+    }
+  }
+}
